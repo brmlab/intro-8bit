@@ -1,15 +1,15 @@
 [
    {
       "nick": "ruza",
-      "city": "Prague",
+      "city": "Praha",
       "desc1": "Can drink up a pile of Club Mates and fall asleep",
-      "desc2": "All your brmlab IDs belong to /me",
+      "desc2": "All your brmlab IDs are belong to /me",
       "weapon": "bottle of Club Mate",
-      "move": "Schhh sound of a bottle of fizzy liquid"
+      "move": "Schhh sound of a bottle with fizzy liquid"
    },
    {
       "nick": "stick",
-      "city": "Kosice, Slovakia",
+      "city": "Kosice/Presov",
       "desc1": "Will install openSUSE on your laptop when you are not looking",
       "desc2": "?",
       "weapon": "?",
@@ -17,8 +17,8 @@
    },
    {
       "nick": "pasky",
-      "city": "Prague",
-      "desc1": "GNU ninja otherwise occupied by training his robotized go-playing minions",
+      "city": "Praha",
+      "desc1": "GNU ninja occupied by training his robotized go-playing minions",
       "desc2": "Hacks for space and coffeine, vulnerable to solder and bureaucracy",
       "weapon": "Flame-throwing Roomba",
       "move": "Razor-sharp Go Stone Throw!"
@@ -29,11 +29,11 @@
       "desc1": "Rad se ucim veci ktere jsem nikdy nedelal",
       "desc2": "Nejradsi delam veci o kterych nic nevim",
       "weapon": "Python",
-      "move": "exception attack"
+      "move": "Exception attack!"
    },
    {
       "nick": "AxTheB",
-      "city": "Prague",
+      "city": "Praha",
       "desc1": "Breaks, builds and breaks again things",
       "desc2": "This will not explode, I promise",
       "weapon": "Electric screwdriver",
@@ -94,6 +94,21 @@
       "desc2": "?",
       "weapon": "?",
       "move": "?"
+   },
+   {
+      "nick": "Alexka",
+      "city": "Presov",
+      "desc1": "Has little sense of orientation in real world, but she can navigate wellin cyberspace.",
+      "desc2": "Reads manual first, asks questions later",
+      "weapon": "irssi",
+      "move": "exploit smile"
+   },
+   {
+      "nick": "kxt",
+      "city": "Praha",
+      "desc1": "all he needs to survive on a desert island is a knife and a matched pair of microphones",
+      "desc2": "don't try to photo him, or he will strike back with at least five strobes and three umbrellas and will make you blind for several hours",
+      "weapon": "cubase",
+      "move": "flash of destiny"
    }
 ]
-
