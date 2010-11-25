@@ -1,0 +1,99 @@
+[
+   {
+      "nick": "ruza",
+      "city": "Prague",
+      "desc1": "Can drink up a pile of Club Mates and fall asleep",
+      "desc2": "All your brmlab IDs belong to /me",
+      "weapon": "bottle of Club Mate",
+      "move": "Schhh sound of a bottle of fizzy liquid"
+   },
+   {
+      "nick": "stick",
+      "city": "Kosice, Slovakia",
+      "desc1": "Will install openSUSE on your laptop when you are not looking",
+      "desc2": "?",
+      "weapon": "?",
+      "move": "?"
+   },
+   {
+      "nick": "pasky",
+      "city": "Prague",
+      "desc1": "GNU ninja otherwise occupied by training his robotized go-playing minions",
+      "desc2": "Hacks for space and coffeine, vulnerable to solder and bureaucracy",
+      "weapon": "Flame-throwing Roomba",
+      "move": "Razor-sharp Go Stone Throw!"
+   },
+   {
+      "nick": "rainbof",
+      "city": "Ceske Budejovice",
+      "desc1": "Rad se ucim veci ktere jsem nikdy nedelal",
+      "desc2": "Nejradsi delam veci o kterych nic nevim",
+      "weapon": "Python",
+      "move": "exception attack"
+   },
+   {
+      "nick": "AxTheB",
+      "city": "Prague",
+      "desc1": "Breaks, builds and breaks again things",
+      "desc2": "This will not explode, I promise",
+      "weapon": "Electric screwdriver",
+      "move": "Untinker!"
+   },
+   {
+      "nick": "Nephirus",
+      "city": "Studanka",
+      "desc1": "If it doesn't fit, use a bigger hammer",
+      "desc2": "Too lazy for thinking up another description",
+      "weapon": "Duct tape",
+      "move": "Aura of procrastination"
+   },
+   {
+      "nick": "niekt0",
+      "city": "Slovakia",
+      "desc1": "Lock durability -10",
+      "desc2": "You feel unsafe",
+      "weapon": "dd",
+      "move": "summon inode"
+   },
+   {
+      "nick": "spark",
+      "city": "Presov",
+      "desc1": "Nicola Tesla",
+      "desc2": "8-bit AVR",
+      "weapon": "Eagle",
+      "move": "Electrification"
+   },
+   {
+      "nick": "chido",
+      "city": "Bratislava",
+      "desc1": "Will extract DNA from every organic material that fits into her blender",
+      "desc2": "Full-time graphic designer, part-time artist, hobby synthetic geneticist",
+      "weapon": "Transcranial electrodes hooked to a tesla coil",
+      "move": "Mitosis"
+   },
+   {
+      "nick": "wilder",
+      "city": "Bratislava",
+      "desc1": "8-bit hippie freak",
+      "desc2": "Enlightenment for your boring life",
+      "weapon": "brain",
+      "move": "deeply inside penetration"
+   },
+   {
+      "nick": "JoHnY",
+      "city": "Zavazna Poruba",
+      "desc1": "Hide yourself or I'll take pictures of you in no time!",
+      "desc2": "?",
+      "weapon": "camera",
+      "move": "deadly headbang"
+   },
+   {
+      "nick": "tutchek",
+      "city": "Liberec",
+      "desc1": "?",
+      "desc2": "?",
+      "weapon": "?",
+      "move": "?"
+   }
+]
+

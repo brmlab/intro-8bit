@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "8bit";
+  src: url("8bit_wonder.woff");
+}
+
+body {
+  background: #000 url("monitor.jpg") no-repeat;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.ebit {
+  font-family: "8bit";
+  font-size: 27px;
+}
+
+.ebit2 {
+  font-family: "8bit";
+  font-size: 54px;
+}
+
+.ebit3 {
+  font-family: "8bit";
+  font-size: 81px;
+}
+
+.center {
+  text-align: center;
+}
+
+img {
+  border: none;
+}
+
+#screen {
+  background: #000;
+  position: absolute;
+  width: 960px;
+  height: 720px;
+  left: 168px;
+  top: 96px;
+}
+
+#logo {
+  background: #000 url("logo.png");
+  width: 160px;
+  height: 36px;
+}
