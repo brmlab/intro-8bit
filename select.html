@@ -4,18 +4,209 @@
 <head>
 <link rel="stylesheet"href="data/style.css" type="text/css" />
 <title>brmlab 8-bit</title>
+<script type="text/javascript" src="data/jquery.js"></script>
+<script type="text/javascript">
+
+var playerdata = [
+   {
+      "nick": "ruza",
+      "city": "Praha",
+      "desc": "Can drink up a pile of Club Mates and fall asleep",
+      "weapon": "bottle of Club Mate",
+      "move": "Schhh sound of a bottle with fizzy liquid"
+   },
+   {
+      "nick": "stick",
+      "city": "Kosice/Presov",
+      "desc": "Will install openSUSE on your laptop when you are not looking",
+      "weapon": "?",
+      "move": "?"
+   },
+   {
+      "nick": "pasky",
+      "city": "Praha",
+      "desc": "GNU ninja occupied by training his robotized go-playing minions",
+      "weapon": "Flame-throwing Roomba",
+      "move": "Razorsharp Go Stone Throw!"
+   },
+   {
+      "nick": "rainbof",
+      "city": "Ceske Budejovice",
+      "desc": "wants to do stuff he never did before",
+      "weapon": "Python",
+      "move": "Exception attack!"
+   },
+   {
+      "nick": "axtheb",
+      "city": "Praha",
+      "desc": "This will not explode, I promise",
+      "weapon": "Electric screwdriver",
+      "move": "Untinker!"
+   },
+   {
+      "nick": "nephirus",
+      "city": "Studanka",
+      "desc": "If it doesn't fit, use a bigger hammer",
+      "weapon": "Duct tape",
+      "move": "Aura of procrastination"
+   },
+   {
+      "nick": "niekt0",
+      "city": "Slovakia",
+      "desc": "Lock durability -10",
+      "weapon": "dd",
+      "move": "summon inode"
+   },
+   {
+      "nick": "spark",
+      "city": "Presov",
+      "desc": "Nicola Tesla meets 8-bit AVR",
+      "weapon": "Eagle",
+      "move": "Electrification"
+   },
+   {
+      "nick": "chido",
+      "city": "Bratislava",
+      "desc": "extracts DNA from everything fitting into her blender",
+      "weapon": "Transcranial electrodes hooked to a tesla coil",
+      "move": "Mitosis"
+   },
+   {
+      "nick": "wilder",
+      "city": "Bratislava",
+      "desc": "8-bit hippie freak enlightening your boring life",
+      "weapon": "brain",
+      "move": "deeply inside penetration"
+   },
+   {
+      "nick": "johny",
+      "city": "Zavazna Poruba",
+      "desc": "Hide yourself or I'll take pictures of you in no time!",
+      "weapon": "camera",
+      "move": "deadly headbang"
+   },
+   {
+      "nick": "tutchek",
+      "city": "Liberec",
+      "desc": "?",
+      "weapon": "?",
+      "move": "?"
+   },
+   {
+      "nick": "alexka",
+      "city": "Presov",
+      "desc": "Reads manual first, asks questions later",
+      "weapon": "irssi",
+      "move": "exploit smile"
+   },
+   {
+      "nick": "kxt",
+      "city": "Praha",
+      "desc": "all he needs to survive on a desert island is a knife and a matched pair of microphones",
+      "weapon": "cubase",
+      "move": "flash of destiny"
+   },
+   {
+      "nick": "fissie",
+      "city": "Praha",
+      "desc": "Makes bad jokes about pwning machines, otherwise harmless",
+      "weapon": "tcpdump",
+      "move": "NULL dereferencing"
+   },
+   {
+      "nick": "blackhead",
+      "city": "Praha",
+      "desc": "Black head, white skin, 24-bit colored mind",
+      "weapon": "hexadecimal editor",
+      "move": "Reset"
+   },
+   {
+      "nick": "redtime",
+      "city": "Plzen",
+      "desc": "He isn't anti-social, he is just not user friendly",
+      "weapon": "dirty keyboard",
+      "move": "RUM-DoS"
+   },
+   {
+      "nick": "shady",
+      "city": "Topolcany",
+      "desc": "Speaks less, hears more",
+      "weapon": "hping2",
+      "move": "stealthy ping"
+   },
+   {
+      "nick": "wiroe",
+      "city": "As",
+      "desc": "Extraterrestrial being on visit at Earth",
+      "weapon": "ultrasonic-flying-dolphin",
+      "move": "time travel"
+   },
+   {
+      "nick": "biiter",
+      "city": "Praha",
+      "desc": "Lurking in the depths of the system",
+      "weapon": "gdb",
+      "move": "oracle machine sight"
+   }
+];
+
+$(function() {
+  $.each(playerdata, function(i,item) {
+    $('img.picker').click(function() {
+      var nick = $(this).attr('data-nick');
+      var city = $(this).attr('data-city');
+      var desc = $(this).attr('data-desc');
+      var weapon = $(this).attr('data-weapon');
+      var move = $(this).attr('data-move');
+      $('#bigimage').attr('src', 'data/avatars/'+nick+'.png');
+      $('span#nick').text(nick);
+      $('span#city').text(city);
+      $('span#desc').text(desc);
+      $('span#weapon').text(weapon);
+      $('span#move').text(move);
+    });
+    $('<img id="'+item.nick+'" class="picker" width="96" height="120"/>').attr(
+      {'src': 'data/avatars/'+item.nick+'.png',
+       'data-nick': item.nick,
+       'data-city': item.city,
+       'data-desc': item.desc,
+       'data-weapon': item.weapon,
+       'data-move': item.move,
+      }).appendTo("#chooser");
+    if (i==0) {
+      $('img.picker #'+item.nick).click();
+    }
+  });
+});
+</script>
 </head>
 
 <body>
-
+<!--
 <embed src="data/8bp062-04-usk-shanghai_moon.ogg" volume="80%" hidden="true" autostart="true" loop="true" />
+-->
 
-<div id="screen">
+<div id="screen" style="background: #088;">
 
 <div class="center">
 
-<div class="ebit" style="margin-top: 50px;"><a href="play.html">choose your player:</a></div>
+<div class="ebit" style="margin-top: 30px;"><a href="play.html">choose your player:</a></div>
 
+<div style="float: left;">
+<img width="288" height="360" id="bigimage" style="margin-right: 10px;">
+</div>
+
+<div id="infopage" style="text-align: left; float: left; width: 660px; height: 380px; overflow: hidden; padding-top: 24px;">
+  <span class="ebit black">nick:</span> <span class="ebit" id="nick"></span><br/>
+  <span class="ebit black">city:</span> <span class="ebit" id="city"></span><br/>
+  <span class="ebit black">description:</span><br/>
+  <span class="ebit" id="desc"></span><br/>
+  <span class="ebit black">weapon of choice:</span><br/><span class="ebit" id="weapon"></span><br/>
+  <span class="ebit black">special move:</span><br/><span class="ebit" id="move"></span><br/>
+</div>
+
+<div id="chooser" style="clear: both;">
+</div>
 
 </div>
 
