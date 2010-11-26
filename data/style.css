@@ -58,6 +58,7 @@ img {
   width: 30px;
   height: 650px;
   overflow: hidden;
+  text-align: center;
 }
 
 #scroller div {
