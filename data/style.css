@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #000 url("monitor.jpg") no-repeat;
+  background: #000 url("monitor-1024.jpg") no-repeat;
   color: white;
 }
 
@@ -41,8 +41,14 @@ img {
   position: absolute;
   width: 960px;
   height: 720px;
+/* monitor-1280 */
+/*
   left: 168px;
   top: 96px;
+*/
+/* monitor-1024 */
+  left: 40px;
+  top: 22px;
 }
 
 #logo {
