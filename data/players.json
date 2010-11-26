@@ -118,5 +118,36 @@
       "desc2": "When you see him soldering, stay away! Chaos usually ensues.",
       "weapon": "tcpdump",
       "move": "NULL dereferencing"
+   },
+   {
+      "nick": "Blackhead",
+      "city": "Praha",
+      "desc1": "Black head, white skin, 24-bit colored mind",
+      "desc2": "When you read this, he's reading your mind",
+      "weapon": "hexadecimal editor",
+      "move": "Reset"
+   },
+   {
+      "nick": "redtime",
+      "city": "Plzen",
+      "desc1": "Does everything when it's fun.",
+      "desc2": "He isn't anti-social, he is just not user friendly",
+      "weapon": "dirty keyboard",
+      "move": "RUM-DoS"
+   },
+   {
+      "nick": "shady",
+      "city": "Topolcany",
+      "desc1": "You don't notice her presence",
+      "desc2": "Speaks less, hears more",
+      "weapon": "hping2",
+      "move": "stealthy ping"
+   },   {
+      "nick": "wiroe",
+      "city": "As",
+      "desc1": "Extraterrestrial being on visit at Earth",
+      "desc2": "Knows how to bend time",
+      "weapon": "ultrasonic-flying-dolphin",
+      "move": "time travel"
    }
 ]
