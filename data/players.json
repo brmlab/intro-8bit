@@ -110,5 +110,13 @@
       "desc2": "don't try to photo him, or he will strike back with at least five strobes and three umbrellas and will make you blind for several hours",
       "weapon": "cubase",
       "move": "flash of destiny"
+   },
+   {
+      "nick": "fissie",
+      "city": "Praha",
+      "desc1": "Makes bad jokes about pwning machines, otherwise harmless.",
+      "desc2": "When you see him soldering, stay away! Chaos usually ensues.",
+      "weapon": "tcpdump",
+      "move": "NULL dereferencing"
    }
 ]
