@@ -50,3 +50,18 @@ img {
   width: 160px;
   height: 36px;
 }
+
+#scroller {
+  position: absolute;
+  left: 800px;
+  top: 20px;
+  width: 30px;
+  height: 650px;
+  overflow: hidden;
+}
+
+#scroller div {
+  color: #000;
+  top: -200px;
+  position: relative;
+}
