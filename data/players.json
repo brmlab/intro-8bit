@@ -142,12 +142,21 @@
       "desc2": "Speaks less, hears more",
       "weapon": "hping2",
       "move": "stealthy ping"
-   },   {
+   },
+   {
       "nick": "wiroe",
       "city": "As",
       "desc1": "Extraterrestrial being on visit at Earth",
       "desc2": "Knows how to bend time",
       "weapon": "ultrasonic-flying-dolphin",
       "move": "time travel"
+   },
+   {
+      "nick": "biiter",
+      "city": "Praha",
+      "desc1": "Teh pwnzor",
+      "desc2": "Lurking in the depths of the system",
+      "weapon": "gdb",
+      "move": "oracle machine sight"
    }
 ]
