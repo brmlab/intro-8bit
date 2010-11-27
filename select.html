@@ -17,10 +17,10 @@ var playerdata = [
    },
    {
       "nick": "stick",
-      "city": "Kosice/Presov",
+      "city": "Kosice+Presov",
       "desc": "Will install openSUSE on your laptop when you are not looking",
-      "weapon": "?",
-      "move": "?"
+      "weapon": "git",
+      "move": "open-source enchant"
    },
    {
       "nick": "pasky",
@@ -88,9 +88,9 @@ var playerdata = [
    {
       "nick": "tutchek",
       "city": "Liberec",
-      "desc": "?",
-      "weapon": "?",
-      "move": "?"
+      "desc": "Understands legal mumbo-jumbo",
+      "weapon": "MS Office",
+      "move": "rapid sign and stamp"
    },
    {
       "nick": "alexka",
@@ -152,19 +152,6 @@ var playerdata = [
 
 $(function() {
   $.each(playerdata, function(i,item) {
-    $('img.picker').click(function() {
-      var nick = $(this).attr('data-nick');
-      var city = $(this).attr('data-city');
-      var desc = $(this).attr('data-desc');
-      var weapon = $(this).attr('data-weapon');
-      var move = $(this).attr('data-move');
-      $('#bigimage').attr('src', 'data/avatars/'+nick+'.png');
-      $('span#nick').text(nick);
-      $('span#city').text(city);
-      $('span#desc').text(desc);
-      $('span#weapon').text(weapon);
-      $('span#move').text(move);
-    });
     $('<img id="'+item.nick+'" class="picker" width="96" height="120"/>').attr(
       {'src': 'data/avatars/'+item.nick+'.png',
        'data-nick': item.nick,
@@ -172,19 +159,28 @@ $(function() {
        'data-desc': item.desc,
        'data-weapon': item.weapon,
        'data-move': item.move,
+      }).click(function() {
+        var nick = $(this).attr('data-nick');
+        var city = $(this).attr('data-city');
+        var desc = $(this).attr('data-desc');
+        var weapon = $(this).attr('data-weapon');
+        var move = $(this).attr('data-move');
+        $('#bigimage').attr('src', 'data/avatars/'+nick+'.png');
+        $('span#nick').text(nick);
+        $('span#city').text(city);
+        $('span#desc').text(desc);
+        $('span#weapon').text(weapon);
+        $('span#move').text(move);
       }).appendTo("#chooser");
-    if (i==0) {
-      $('img.picker #'+item.nick).click();
-    }
   });
+  $('img.picker#ruza').click();
 });
 </script>
 </head>
 
 <body>
-<!--
+
 <embed src="data/8bp062-04-usk-shanghai_moon.ogg" volume="80%" hidden="true" autostart="true" loop="true" />
--->
 
 <div id="screen" style="background: #088;">
 
